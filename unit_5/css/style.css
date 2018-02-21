@@ -3,6 +3,7 @@
 body {
 	text-align: center;
 }
+
 p {
 	line-height: 1.5em;
 	font-family: 'PT Sans', sans-serif;
@@ -11,7 +12,7 @@ p {
 #slogan {
 	font-family: 'PT Sans', sans-serif;
 	text-transform: lowercase;
-	font-size: 24px;
+	font-size: 30px;
 }
 h1 {
 	font-size: 50px;
@@ -22,4 +23,28 @@ ul {
 	text-align: left;
 	width:100px;
 	margin: 0 auto;
+}
+
+.wrapper {
+	padding: 20px;
+	background: #ffe2b8;
+	border: 1px black solid;
+}
+
+header {
+	padding: 20px;
+	background: #ffed74;
+	border: 1px black solid;
+}
+
+article {
+	border: 1px black solid;
+	padding: 20px;
+	background: #E89C6C;
+}
+
+footer {
+	background: #ff957e;
+	border: 1px black solid;
+	padding: 20px 
 }
